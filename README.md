@@ -16,3 +16,8 @@ For the lowest class, do guarantee that you meet the sacrificial quota, otherwis
 
 If for any reason you haven't gained SS access, do contact a higher up. (Director or Him)
 You will be granted your power and you will be like a god.
+
+Attempting to run code restricted to higher ups will result in your name being deleted off our libraries and you being deported overseas.
+Don't try to test us.
+
+~~Just follow the script.~~
