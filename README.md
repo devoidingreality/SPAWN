@@ -5,8 +5,8 @@ You will use `(getgenv and getgenv()) or shared` the most, so I recommend you le
 For Secretaries, you will use `saveinstance()` to compile the world you're in.
 If you are part of the Resistance, run
 ```
-for _, Player in game.Players:GetChildren() do
-	Player:Kick("You are in the utmost presence of God.")
+for _, Player: Player in game.Players:GetPlayers() do
+	Player:Kick("You are in the utmost presence of ���.")
 end
 ```
 when you believe is necessary.
@@ -20,4 +20,4 @@ You will be granted your power and you will be like a god.
 Attempting to run code restricted to higher ups will result in your name being deleted off our libraries and you being deported overseas.
 Don't try to test us.
 
-~~Just follow the script.~~
+~~Just follow the script, User.~~
