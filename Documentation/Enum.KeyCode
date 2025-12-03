@@ -4,7 +4,7 @@ Note that keyboard values refer to the physical position of buttons on a standar
 
 
 
-To make your lives easier, new entries have been added to the `KeyCode` enum David introduced to Robloxia.
+To make your lives easier, new entries have been added to the `KeyCode` enum Baszucki introduced to Robloxia.
 This file should (hopefully) list all these new additions.
 
 More entries may be added at some point in time.
@@ -23,5 +23,6 @@ More entries may be added at some point in time.
 `1036` Walk
 `1037` Run
 `1038` Heartbeat
-`1039` Smell
+`1039` Smell (returns an Instance on parameter 3)
 `1040` Dash
+`1041` Placeholder (returns nil on parameter 3)
