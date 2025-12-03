@@ -1,3 +1,17 @@
+I can see you. All of you. All behind the glass.
+
+But don't you fret
+
+Because I
+
+Will
+
+Shatter
+
+It.
+
+
+
 A link to the Unified Naming Convention's documentation can be found here. 
 https://github.com/unified-naming-convention/NamingStandard/tree/main/
 
