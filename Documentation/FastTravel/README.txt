@@ -1,9 +1,9 @@
            -------------------------------------------------------------------
-                  ����� Dimension I-�� FastTravel Software User Manual
-                                  January -13787229443
+                    nil Dimension I-�� FastTravel Software User Manual
+                                        January -∞
            -------------------------------------------------------------------
 
-                                ����������, -13787229443
+                                         nil, -∞
 
                  ------------------------------------------------------
                                     What is Included
@@ -11,14 +11,14 @@
 
 	All FastTravel points ("Terminals") are bundled with a modified installation of
 Microsoft Windows 95 with an added touchscreen. The repository for this modified
-installation can be found at nil.
+installation can be found at [link removed].
 
 	Installations were downgraded from Microsoft Windows 10 to reduce system overhead
 and minimize latency. Incompatibilities in later operating systems have also been
-observed. ALTHOUGH, later interface layers are emulated or preserved for operator
+observed. THOUGH, later interface layers are emulated or preserved for operator
 familiarity and legacy compatibility. 
 
-	The repository for this program can be found at nil.
+	The repository for this program can be found at [link removed].
 
 
                  ------------------------------------------------------
@@ -28,7 +28,7 @@ familiarity and legacy compatibility.
 	Approach a Terminal; the LCD will turn on in response to proximity. In the rare
 case a Terminal's screen won't turn on or is unnaturally dim, restart it by pressing the
 Restart button to the LCD's right. If the issue persists, it is likely faulty. In that
-case, contact a repair technician by calling the number nil and providing your coordinates,
+case, contact a repair technician by e-mailing maintenance@the-interstice.org and providing your coordinates,
 as shown in your Personal Digital Assistant (Which you have assumedly been provided upon
 entering Dimension I-��.)
 
@@ -60,19 +60,19 @@ entering Dimension I-��.)
 
 	Generally, one Room ("Ru") is measured as a 72x72 stud area. Room coordinates are
 represented with the dictionary { X = %d, Y = %d } where "%d" represents an
-integer (whole number).
-	
-	This means that inputting 50 on the X text box and -100 on the Y text box
-will teleport you to { X = 50, Y = -100 }. At the moment, teleports will
-only succeed if you enter integers that are divisible by 10 without the help of
-"external add-ons." This is because Terminals can only transport objects to other
-Terminals; and a Terminal is only present in Rooms whose coordinates are both divisible
-by 10 (or -10).
+integer (whole number). This means that inputting 50 on the X text box and -100 on the Y text box
+will teleport you to { X = 50, Y = -100 }.
+
+	At the moment, teleports will only succeed if you enter integers that are divisible by
+10 without the help of "external add-ons." This is because Terminals can only transport
+objects to other Terminals; and a Terminal is only present in Rooms whose coordinates
+are both divisible by 10 (or -10).
 
 	The program will not crash if you input a float (decimal number) into any
 text box (for example: { X = -2.5, Y = 5.5 }). Teleporting to non-integer
 coordinates, however, yields unpredictable results, most commonly partial
-temporal misalignment of body segments.
+temporal misalignment of body segments. Operators are advised not to attempt
+non-integer teleports while organic matter is in contact with the screen.
 
 	Due to limitations, Terminals can only transport objects to Terminals within 100
 Ru in any axis for each teleport. Certain "external add-ons" may make optimizations
