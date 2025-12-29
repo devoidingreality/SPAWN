@@ -5,6 +5,23 @@
 
                                          nil, -∞
 
+				 ------------------------------------------------------
+                                Warnings & Safety Notices
+                 ------------------------------------------------------
+
+	a. Non-integer teleports (the act of teleporting any object to coordinates whose
+X and/or Y values are not whole numbers) can yield unpredictable and unexpected results,
+most commonly partial temporal misalignment of body segments. Operators are strongly
+advised not to execute non-integers teleports while any organic matter is making
+sustained contact with the touchscreen.
+
+	b. Any object making direct contact with a Terminal's touchscreen; and by
+extension, any objects making direct contact with those objects, and so on,
+will also be teleported.
+
+	c. Teleports will fail if any X or Y coordinate is greater than 100. This can be
+bypassed by teleporting multiple times within quick succession.
+
                  ------------------------------------------------------
                                     What is Included
                  ------------------------------------------------------
@@ -15,7 +32,7 @@ installation can be found at [link removed].
 
 	Installations were downgraded from Microsoft Windows 10 to reduce system overhead
 and minimize latency. Incompatibilities in later operating systems have also been
-observed. THOUGH, later interface layers are emulated or preserved for operator
+observed. However, later interface layers are emulated or preserved for operator
 familiarity and legacy compatibility. 
 
 	The repository for this program can be found at [link removed].
@@ -39,8 +56,9 @@ entering Dimension I-��.)
 	                          ==== Commands ====
         Buttons:
      1. TP button    - Its caption stands for "Teleport." Upon typing coordinates into the
-	               X and Y text boxes, tapping this button will transport anything
-	               making contact with the Terminal's touchscreen to those coordinates.
+	               X and Y text boxes, tapping this button will transport any object or
+				   organism making (any and all) contact with the touchscreen. (Warnings and
+				   Safety Notices, B.)
 
      2. ? (question) - This is the user manual button. The Terminal will display a copy of
 	               document upon tapping it. It can then be closed by tapping the X
@@ -59,28 +77,27 @@ entering Dimension I-��.)
 	                        ==== Room Unit ====
 
 	Generally, one Room ("Ru") is measured as a 72x72 stud area. Room coordinates are
-represented with the dictionary { X = %d, Y = %d } where "%d" represents an
-integer (whole number). This means that inputting 50 on the X text box and -100 on the Y text box
-will teleport you to { X = 50, Y = -100 }.
+expressed as a Dictionary in the form { X = %d, Y = %d } where "%d" represents an
+integer (whole number). This means that inputting 50 on the X text box and -100 on the
+Y text box will teleport you to { X = 50, Y = -100 }.
 
 	At the moment, teleports will only succeed if you enter integers that are divisible by
 10 without the help of "external add-ons." This is because Terminals can only transport
-objects to other Terminals; and a Terminal is only present in Rooms whose coordinates
-are both divisible by 10 (or -10).
+objects to other Terminals; and Terminals can only be present at { X % 10 == 0, Y % 10 == 0 }.
 
 	The program will not crash if you input a float (decimal number) into any
-text box (for example: { X = -2.5, Y = 5.5 }). Teleporting to non-integer
-coordinates, however, yields unpredictable results, most commonly partial
-temporal misalignment of body segments. Operators are advised not to attempt
-non-integer teleports while organic matter is in contact with the screen.
+text box (for example: { X = -2.5, Y = 5.5 }). See Warnings and Safety Notices, A.
 
 	Due to limitations, Terminals can only transport objects to Terminals within 100
 Ru in any axis for each teleport. Certain "external add-ons" may make optimizations
 that can loosen or remove this restriction. This does not stop or disallow teleporting
-more than 100 Ru by FastTraveling in bursts.
+more than 100 Ru by FastTraveling in bursts. (Warnings and Safety Notices, C.)
 
 
 	    			 ==== Reference Implementation ====
+
+	The reference implementation demonstrates safe canonical conversion only; the
+Terminal runtime does not enforce rounding.
 
 	Ru can be converted to Vector3 and CFrame with this function:
 	--
@@ -140,4 +157,4 @@ a copy of this license, visit https://www.gnu.org/licenses/gpl-3.0.en.html .
                  Where Else to Find Dimension I-�� FastTravel Software
                  ------------------------------------------------------
 	
-	please don't.
+	don't
