@@ -20,31 +20,45 @@ You may or may not be able to find <i>hidden items</i> to upgrade your <b>Person
 
 Your <b>Personal Digital Assistant</b> will emit a <i>high-pitched sound</i> in close proximity to an item.
 
-Sick of walking so slow? Perhaps you should try at finding <b>Hermes' Boots</b>; It's somewhere near <b>{ X = 0, Y = 0 }</b>.
+Sick of walking so slow? Perhaps you should try at finding a pair <b>Hermes' Boots</b>; It's somewhere near <b>{ X = 0, Y = 0 }</b>.
 
 Gaze into your reflection in a <b>Magic Mirror</b> to return to <b>{ X = 0, Y = 0 }</b> and create a wormhole to your initial position.
 
-Beware of using <i>"dubious"</i> items...
+Beware of using <i>"dubious"</i> items...!
 
 Some cosmic engineer left us the <b>EXO Boots</b>... though, it requires a <i>certain pair of green boots</i> to snatch it.
 
-Need some of life? The <b>Portal Skirt</b> lets you teleport to and from <b><i>any</i></b> room.
+Need some quality of life? The <b>Portal Skirt</b> allows you to teleport to and from <b><i>any</i></b> room.
 
-You can make your <b>Personal Digital Assistant</b> happy by upgrading it into the <b>Interstitial-Grade PDA</b>. Though, it requires a little, too many ingredients...
+You can make your <b>Personal Digital Assistant</b> happy by upgrading it into the <b>Interstitial-Grade PDA</b>. Though, it requires a little, <i>too many</i> ingredients...
 
 Your <b>Personal Digital Assistant</b> enjoys the <b>Portal Skirt</b> out of all the items. Now you know.
 
+Have you ever heard of <b>Dark Souls</b>? Well, discard that knowledge... it doesn't help. You can find souls by returning to the <b>Terminal</b> at <b>{ X = 0, Y = 0 }</b> and inserting a <b>Tier 1</b> and <b>Tier 2</b> item of the same category.
+
+Perhaps if you could just bring a <b>Terminal</b> around with you... though, Terminals are real heavy. What if you brought its CPU instead?
+
+Ever wanted to parkour? Someone made that. It gets you a sick <i>pair of mechanical boots</i>. Just go to <b>{ X = 77, Y = 77 }</b>!
+
+go to <b>{ X = 13, Y = 37 }</b> for a surprise :3 -r
+
+Need some mystery in your cold, dark life? How about you take a look at the <b>Dubious Circuitry</b>? It'll throw you across the grid.
+
+The <b>Magical Circuit Heart</b> helps lots, combining the functionalities of a <i>magical shard of glass</i> and a <i>suspicious-looking circuit boaard</i>...
+
+The <i>souls of the damned</i> lend their combined power to you. As clothing you can wear. Guess they weren't so evil after all...
+
+What if you found some weird non-Euclidean way to fix up your <b>Personal Digital Assistant</b> using a little over ten different things?
 
 
-Perhaps if you could bring a <b>Terminal</b> around with you...
 
-Ever wanted to parkour? Someone made that. It gets you a sick <i>pair of boots</i>. Just go to <b>{ X = 77, Y = 77 }</b>!
+Only the brave, or the reckless, try at confronting one of the two builders.
 
-go to <b>{ X = 13, Y = 37 }</b> :3 -r
+Some say there were two builders of this place... the <b>Woman of Time</b> and her brother, the <b>Man of Spawn</b>.
 
-If you happen to annoy an <b>Interstitial Creator</b>, there's a chance they may throw a <i>pink landmine</i> at you.
+The two builders wield two special tools: a <i>pink landmine</i> and a standard set of <i>building tools</i>.
 
-Don't you ever wonder what happens at <b>{ X = 2147483647, Y = 2147483647 }</b>? It's sad you'll never get there, right?
+Don't you ever wonder what happens at <b>{ X = 2147483647, Y = 2147483647 }</b>? Too bad you'll never be able to get there, right?
 
 
 
