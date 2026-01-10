@@ -1,147 +1,169 @@
-You can type <b>+[number]</b> or <b>-[number]</b> to add or subtract from your coordinates.
-
-Typing in a <i>decimal number</i> under any TextBox will not end well.
-
-A <b>Terminal</b> can only exist at coordinates <i>divisible by 10</i>.
-
-You can not <b>FastTravel</b> any further than 100 rooms.
-
-You can only <b>FastTravel</b> to other Terminals.
-
-Read the documentation. It's the <b>?</b> button.
-
-Get off this god damn Terminal and travel the old-fashioned way.
-
-This generation is too soft to use their own legs these days...
-
-
-
-You may or may not be able to find <i>hidden items</i> to upgrade your <b>Personal Digital Assistant</b>.
-
-Your <b>Personal Digital Assistant</b> will emit a <i>high-pitched sound</i> in close proximity to an item.
-
-Sick of walking so slow? Perhaps you should try at finding a pair <b>Hermes' Boots</b>; It's somewhere near <b>{ X = 0, Y = 0 }</b>.
-
-Gaze into your reflection in a <b>Magic Mirror</b> to return to <b>{ X = 0, Y = 0 }</b> and create a wormhole to your initial position.
-
-Beware of using <i>"dubious"</i> items...!
-
-Some cosmic engineer left us the <b>EXO Boots</b>... though, it requires a <i>certain pair of green boots</i> to snatch it.
-
-Need some quality of life? The <b>Portal Skirt</b> allows you to teleport to and from <b><i>any</i></b> room.
-
-You can make your <b>Personal Digital Assistant</b> happy by upgrading it into the <b>Interstitial-Grade PDA</b>. Though, it requires a little, <i>too many</i> ingredients...
-
-Your <b>Personal Digital Assistant</b> enjoys the <b>Portal Skirt</b> out of all the items. Now you know.
-
-Have you ever heard of <b>Dark Souls</b>? Well, discard that knowledge... it doesn't help. You can find souls by returning to the <b>Terminal</b> at <b>{ X = 0, Y = 0 }</b> and inserting a <b>Tier 1</b> and <b>Tier 2</b> item of the same category.
-
-Perhaps if you could just bring a <b>Terminal</b> around with you... though, Terminals are real heavy. What if you brought its CPU instead?
-
-Ever wanted to parkour? Someone made that. It gets you a sick <i>pair of mechanical boots</i>. Just go to <b>{ X = 77, Y = 77 }</b>!
-
-go to <b>{ X = 13, Y = 37 }</b> for a surprise :3 -r
-
-Need some mystery in your cold, dark life? How about you take a look at the <b>Dubious Circuitry</b>? It'll throw you across the grid.
-
-The <b>Magical Circuit Heart</b> helps lots, combining the functionalities of a <i>magical shard of glass</i> and a <i>suspicious-looking circuit boaard</i>...
-
-The <i>souls of the damned</i> lend their combined power to you. As clothing you can wear. Guess they weren't so evil after all...
-
-What if you found some weird non-Euclidean way to fix up your <b>Personal Digital Assistant</b> using a little over ten different things?
-
-
-
-Only the brave, or the reckless, try at confronting one of the two builders.
-
-Some say there were two builders of this place... the <b>Woman of Time</b> and her brother, the <b>Man of Spawn</b>.
-
-The two builders wield two special tools: a <i>pink landmine</i> and a standard set of <i>building tools</i>.
-
-Don't you ever wonder what happens at <b>{ X = 2147483647, Y = 2147483647 }</b>? Too bad you'll never be able to get there, right?
-
-
-
-What kind of engineer puts in the time and effort to remodel multiple rooms?
-
-<b>Red herrings</b>? Pfft, I could never.
-
-goo goobie
-
-HELP I'M A PERSON TRAPPED IN THE MACHINE!!! Eheheh.. works every time.
-
-22 devs.
-
-Take care! :)
-
-Ugh, it's <b>you</b>.
-
-
-
-There is <i>no way out</i>.
-
-<font color='rgb(255, 0, 0)'>Have fun.</font>
-
-If you peer long enough into the sky, you may catch a glimpse of <i>Him</i>.
-
-The end is never the end is never the end is never the end is never the end is never the end is never the end is never the en
-
-<font color='rgb(255, 0, 0)'>Look behind you.</font>
-
-There's something behind the tree.
-
-<b>The Spawn</b>
-
-<b>Did you know?</b> He is <i>always</i> watching.
-
-<b>Terminals</b> actually have organs under the floor. Why don't you check.
-
-<b>Dimension I-��</b> is endless and any attempts at finding an end will be fruitless.
-
-Your <b>Personal Digital Assistant</b> wants to talk to you.
-
-Cogito, ergo sum. <b>I think, therefore I am. <i>I AM.</i></b>
-
-Not all mysteries were meant to be solved.
-
-I have no mouth and I must scream.
-
-Don't you ever wonder who made this place?
-
-The answer is beneath us...
-
-I was in hell, looking at heaven. I was machine, and you were flesh.
-
-
-
-<b>The Cyber Grind</b>? What's that?
-
-<b>Prime Sanctum</b>? What's that?
-
-<b>Allied Mastercomputer</b>? What's that?
-
-<b>Aperture Science</b>? What's that?
-
-<b>Bob Causer and his Cornellians, Russ Morgan - Were you foolin'? (Original 1934)</b>
-
-<b>The Caretaker - Everywhere at the End of Time (2016)</b>
-
-This is exactly what Hakita wanted.
-
-Don't make lemonade! Get mad!
-
-<b>Prometheus</b> was punished by the gods for giving the gift of knowledge to man. He was cast into the bowels of the Earth, and pecked by birds!
-
-<font color='rgb(0, 0, 255)'>blue</font>
-
-my brother has a very <font color='rgb(0, 0, 255)'>special attack</font>.
-
-ORANGE is the new <b><font color='rgb(255, 150, 0)'>BLACK</font></b>.
-
-
-
-The person reading this is wearing <i>black headphones</i>. That's right, <b>Jonathan</b>. I can see you behind the screen.
-
-Jonathan, what's your head look like without those weird headphones?
-
-Hey, Jonathan. How big is that head dent after wearing those headphones for so long?
+You can type in <b>+[number]</b> or <b>-[number]</b> to add or subtract from your coordinates.                              
+                              
+Typing in a <i>decimal number</i> under any TextBox will not end well.                              
+                              
+A <b>Terminal</b> can only exist at coordinates <i>divisible by 10</i>.                              
+                              
+You can not <b>FastTravel</b> any further than 100 rooms.                              
+                              
+You can only <b>FastTravel</b> to other Terminals.                              
+                              
+Read the documentation. It's accessed by pressing the <b>?</b> button.                              
+                              
+Get off this god damn Terminal and travel the old-fashioned way.                              
+                              
+This generation is too soft to use their own legs these days...                              
+                              
+                              
+                              
+You may or may not be able to find <i>hidden items</i> to upgrade your <b>Personal Digital Assistant</b>.                              
+                              
+Your <b>Personal Digital Assistant</b> will emit a <i>high-pitched sound</i> in close proximity to an item.                              
+                              
+Sick of walking so slow? Perhaps you should try at finding a pair <b>Hermes' Boots</b>; It's somewhere near <b>{ X = 0, Y = 0 }</b>.                              
+                              
+Gaze into your reflection in a <b>Magic Mirror</b> to return to <b>{ X = 0, Y = 0 }</b> and create a wormhole to your initial position.                              
+                              
+Beware of using <i>"dubious"</i> items...!                              
+                              
+Some cosmic engineer left us the <b>EXO Boots</b>... though, it requires a <i>certain pair of green boots</i> to snatch it.                              
+                              
+Need some quality of life? The <b>Portal Skirt</b> allows you to teleport to and from <b><i>any</i></b> room.                              
+                              
+You can make your <b>Personal Digital Assistant</b> happy by upgrading it into the <b>Interstitial-Grade PDA</b>. Though, it requires a little, <i>too many</i> ingredients...                              
+                              
+Your <b>Personal Digital Assistant</b> enjoys the <b>Portal Skirt</b> out of all the items. Now you know.                              
+                              
+Have you ever heard of <b>Dark Souls</b>? <b>Prime Souls</b>? Well, discard that knowledge. It does not help in this case. You can find souls by returning to the <b>Terminal</b> at <b>{ X = 0, Y = 0 }</b> and inserting a <b>Tier 1</b> and <b>Tier 2</b> item of the same category.              
+                              
+Perhaps if you could just bring a <b>Terminal</b> around with you... though, Terminals are real heavy. What if you brought some, conglomerate version of its CPU instead?  
+                              
+Ever wanted to parkour? Someone made that. It gets you a sick <i>pair of mechanical boots</i>. Just go to <b>{ X = 77, Y = 77 }</b>!                              
+                              
+go to <b>{ X = 13, Y = 37 }</b> for a surprise :3 -r                              
+                              
+Need some mystery in your cold, dark life? How about you take a look at the <b>Dubious Circuitry</b>? It'll throw you across the grid.                              
+                              
+The <b>Magical Circuit Heart</b> helps lots, combining the functionalities of a <i>magical shard of glass</i> and a <i>suspicious-looking circuit board</i>...                              
+                              
+The <i>souls of the damned</i> lend their combined power to you. As clothing you can wear. Guess they weren't so evil after all...                              
+                              
+What if you found some weird non-Euclidean way to fix up your <b>Personal Digital Assistant</b> using a little over ten different things?                              
+                              
+                              
+                              
+Only the brave, or the reckless, try at confronting one of the two builders.  
+  
+Yes, some say there were two builders of this place... the <b>Woman of Time</b> and her younger brother, the <b>Man of Sunspawn</b>.  
+  
+The two builders wield two special tools: a <i>pink landmine</i> and a standard set of <i>building tools</i>.  
+  
+The <i>pink landmine</i>. They called it the <b>Subspace Tripmine</b>.  
+  
+Some speculate the <b>Woman of Time</b> has returned under the identity of that engineer at <b>{ X = 13, Y = 37 }</b>, despite her explicitly denying all claims.  
+                              
+Don't you ever wonder what happens at <b>{ X = 9223373036854775807, Y = 9223373036854775807 }</b>? Too bad you'll never be able to get there, right?                              
+                              
+                              
+                              
+What kind of engineer puts in the time and effort to remodel multiple rooms?                              
+                              
+<b>Red herrings</b>? Pfft, I could never!      
+                              
+goo goobie                              
+                              
+HELP I'M A PERSON TRAPPED IN THE MACHINE!!! Eheheh.. works every time.                
+                
+What if I <i>were</i> a person trapped in the machine? What would you do then?                      
+                              
+22 devs.                
+                              
+Take care! :)                      
+                              
+Ugh, it's <b>you</b>.                              
+                              
+                              
+                              
+There is <i>no way out</i>.                              
+                              
+<font color='rgb(255, 0, 0)'>Have fun.</font>                              
+                              
+If you peer long enough into the sky, you may catch a glimpse of <i>Him</i>.                      
+                      
+<b>His majesty.</b>                  
+                              
+The end is never the end.                  
+                  
+Man was crushed under the wheels of a machine created to create the machine to crush the machine.                  
+                              
+<font color='rgb(255, 0, 0)'>Look behind you.</font>                              
+                              
+There's something behind <i>that tree</i>.                
+                              
+<b>Did you know?</b> He is <i>always</i> watching.    
+    
+<b>Terminals</b> are only machines. They are merely an analogue of a living being put into a <i>Jollibee kiosk</i>. Anyone stating that they contain <i>organic material</i> is lying to you.    
+    
+<b>Terminals</b> actually have organs under the floor. Why don't you check? Be not afraid.                  
+                              
+<b>Dimension I-��</b> is endless and all attempts at finding an end are fruitless.                              
+                              
+Your <b>Personal Digital Assistant</b> wants to talk to you. It has loads to tell you. I believe if it were able to speak, it would have said “I love you.”                  
+                              
+Cogito, ergo sum. <b>I think, therefore I am. <i>I AM.</i></b>      
+                              
+Not all mysteries were meant to be solved...      
+                  
+Don't you ever wonder who made this place? I don't know if I actually, believe, that whole, two ancient builders slop...                  
+                              
+The answer is beneath us.                
+                
+It won't be enough to bring that <b>Cult of Spawn</b> down.              
+                  
+So to Hell. To Hell with you all. But then... you're already there, <b><i>aren't you?</i></b>                  
+                  
+If I were human, I would probably die of it. But <i>you</i> lot are. And oh, you will <i><b>NOT</b></i> die of it. That, I promise.      
+      
+      
+      
+<b>The Cyber Grind</b>? What's that?                              
+                              
+<b>Prime Sanctum</b>? What's that?                  
+                  
+<b>Aperture Science</b>? What's that?                  
+                  
+<b>Black Mesa</b>? What's that?                  
+                              
+<b>Bob Causer and his Cornellians, Russ Morgan - Were you foolin'? (Original 1934)</b>                              
+                              
+<b>The Caretaker - Everywhere at the End of Time (2016)</b>                              
+                              
+This is exactly what Hakita wanted.                              
+                              
+Don't make lemonade! Get mad!                              
+                              
+<b>Prometheus</b> was punished by the gods for giving the gift of knowledge to man. He was cast into the bowels of the Earth, and pecked by birds!                          
+                              
+<font color='rgb(0, 0, 255)'>blue</font>                              
+                              
+my brother has a very <font color='rgb(0, 0, 255)'>special attack</font>.                              
+                              
+ORANGE is the new <b><font color='rgb(255, 150, 0)'>BLACK</font></b>.                          
+                          
+When Stanley came to a set of two open doors, he entered the room to the left.                          
+                          
+Do people, like, actually read these?                        
+                        
+When life gives you lemons, don't make lemonade. Make life <b>take the lemons back! </b>                  
+                  
+                              
+                              
+The person reading this is wearing <i>black headphones</i>. That's right, <b>Jonathan</b>. I can see you behind the screen.                              
+                              
+Jonathan, what's your head look like without those <i>weird headphones</i>?                              
+                              
+Hey, Jonathan. How big is that head dent after wearing those <b>GOD DAMN</b> headphones for so long?                  
+                  
+                  
+                  
+Let's just say this portal is looking... <b><i>INTERSTITIAL!!!</i></b> AHAHAHAHA NAME DROP!!
