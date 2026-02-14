@@ -1,26 +1,30 @@
 -- Because of the way this works, any world with decent protection will be able to detect this.
 -- This is only really useful for gathering new recruits or sacrifices.
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local StarterGui = game:GetService("StarterGui")
+local UserInputService = game:GetService("UserInputService")
 
 local ScriptStarted = false
 local Keybind = "StompRight" -- Keybind is a Placeholder name. This corresponds to an action. The documentation is in this repository.
 local Transparency = true -- Will make your body slightly transparent when you are invisible. No reason to disable this.
 local NoClip = false -- Will make your fake body be able to phase through solid objects.
 
-local Player = game:GetService("Players").LocalPlayer
+local Player = Players.LocalPlayer
 local RealCharacter = Player.Character or Player.CharacterAdded:Wait()
 
 local IsInvisible = false
 
 RealCharacter.Archivable = true
 local FakeCharacter = RealCharacter:Clone()
-local Part
-Part = Instance.new("Part", workspace)
-Part.Anchored = true
-Part.Size = Vector3.new(200, 1, 200)
-Part.CFrame = CFrame.new(0, -500, 0) --Set this to whatever you want, just far away from the map.
-Part.CanCollide = true
+local Part = Instance.new("Part", workspace); do
+	Part.Anchored = true
+	Part.Size = Vector3.new(200, 1, 200)
+	Part.CFrame = CFrame.new(0, -500, 0) --Set this to whatever you want, just far away from the map.
+	Part.CanCollide = true
+end
 FakeCharacter.Parent = workspace
-FakeCharacter.HumanoidRootPart.CFrame = Part.CFrame * CFrame.new(0, 5, 0)
+FakeCharacter:PivotTo(Part.CFrame * CFrame.new(0, 5, 0))
 
 for i, v in pairs(RealCharacter:GetChildren()) do
   if v:IsA("LocalScript") then
@@ -71,28 +75,27 @@ function RealCharacterDied()
           end
       end
   end
- RealCharacter.Humanoid.Died:Connect(function()
- RealCharacter:Destroy()
- FakeCharacter:Destroy()
- end)
- Player.CharacterAppearanceLoaded:Connect(RealCharacterDied)
+	RealCharacter.Humanoid.Died:Connect(function()
+		RealCharacter:Destroy()
+		FakeCharacter:Destroy()
+	end)
+	Player.CharacterAppearanceLoaded:Connect(RealCharacterDied)
 end
 RealCharacter.Humanoid.Died:Connect(function()
- RealCharacter:Destroy()
- FakeCharacter:Destroy()
- end)
+	RealCharacter:Destroy()
+	FakeCharacter:Destroy()
+end)
 Player.CharacterAppearanceLoaded:Connect(RealCharacterDied)
+
 local PseudoAnchor
-game:GetService "RunService".RenderStepped:Connect(
-  function()
-      if PseudoAnchor ~= nil then
-          PseudoAnchor.CFrame = Part.CFrame * CFrame.new(0, 5, 0)
-      end
-       if NoClip then
-      FakeCharacter.Humanoid:ChangeState(11)
-       end
-  end
-)
+RunService.RenderStepped:Connect(function()
+    if PseudoAnchor ~= nil then
+	PseudoAnchor.CFrame = Part.CFrame * CFrame.new(0, 5, 0)
+    end
+    if NoClip then
+		FakeCharacter.Humanoid:ChangeState(11)
+    end
+end)
 
 PseudoAnchor = FakeCharacter.HumanoidRootPart
 local function Invisible()
@@ -130,8 +133,7 @@ local function Invisible()
   end
 end
 
-game:GetService("UserInputService").InputBegan:Connect(
-  function(key, gamep)
+UserInputService.InputBegan:Connect(function(key, gamep)
       if gamep then
           return
       end
@@ -140,9 +142,6 @@ game:GetService("UserInputService").InputBegan:Connect(
               Invisible()
           end
       end
-  end
-)
-local Sound = Instance.new("Sound",game:GetService("SoundService"))
-Sound.SoundId = "rbxassetid://232127604"
-Sound:Play()
-game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Invisible toggle finished loading",["Text"] = "Press "..Keybind.." to toggle visibility.",["Duration"] = 20,["Button1"] = "Y"})
+end)
+
+StarterGui:SetCore("SendNotification",{["Title"] = "Invisible toggle finished loading",["Text"] = "Press "..Keybind.." to toggle visibility.",["Duration"] = 20,["Button1"] = "Y"})
