@@ -26,7 +26,7 @@ Gaze into your reflection in a <b>Magic Mirror</b> to return to <b>{ X = 0, Y = 
 
 Beware of using <i>"dubious"</i> items...!
 
-Some engineer left us the <b>EXO Boots</b>... though, it requires a <i>certain pair of green boots</i> to snatch it.
+Some cosmic engineer left us the <b>EXO Boots</b>... though, it requires a <i>certain pair of green boots</i> to snatch it.
 
 Need some quality of life? The <b>Portal Skirt</b> allows you to teleport to and from <b><i>any</i></b> room.
 
@@ -34,95 +34,133 @@ You can make your <b>Personal Digital Assistant</b> happy by upgrading it into t
 
 Your <b>Personal Digital Assistant</b> enjoys the <b>Portal Skirt</b> out of all the items. Now you know.
 
+Inputting any decimal number within any TextBox, traveling there will result in either instantaneous death or <i>visiting the past</i>... unfortunately, you cannot return if you do.
+
+Unfortunately, we can't really stop you from getting yourself killed by decimal teleportation. Sorry.
+
 Have you ever heard of <b>Dark Souls</b>? <b>Prime Souls</b>? Well, discard that knowledge. It does not help in this case. You can find souls by returning to the <b>Terminal</b> at <b>{ X = 0, Y = 0 }</b> and inserting a <b>Tier 1</b> and <b>Tier 2</b> item of the same category.
 
 Perhaps if you could just bring a <b>Terminal</b> around with you... though, Terminals are real heavy. What if you brought some, conglomerate version of its CPU instead?
 
-Ever wanted to parkour? Someone made that. It gets you a sick <i>pair of mechanical boots</i>. Just go to <b>{ X = 77, Y = 77 }</b>!
+Ever wanted to parkour? Someone made that. It gets you a sick <i>pair of mechanical boots</i>. Just go to <b>{ X = 77, Y = 77 }</b>! Though, you will need another <i>green pair of boots</i>.
 
-go to <b>{ X = 13, Y = 37 }</b> for a surprise :3 -r
+twas surprisingly easy to hack into this.. go to <b>{ X = 13, Y = 37 }</b> for a surprise :3 -from r
 
 Need some mystery in your cold, dark life? How about you take a look at the <b>Dubious Circuitry</b>? It'll throw you across the grid.
 
 The <b>Magical Circuit Heart</b> helps lots, combining the functionalities of a <i>magical shard of glass</i> and a <i>suspicious-looking circuit board</i>...
 
-The <i>souls of the damned</i> lend their combined power to you. As clothing you can wear. Guess they weren't so evil after all...
+The <i>souls of the damned</i> lend their combined power to you. As little badges that help you traverse this place. Guess they weren't so evil after all...
 
 What if you found some weird non-Euclidean way to fix up your <b>Personal Digital Assistant</b> using a little over ten different things?
 
+HIIII!!!!! Did you know that <b>pseudo-Terminals</b> created by the <b>Portability Mod</b> have different tips? I'm friends with all 18 quintillion of them.
 
 
-Only the brave, or the reckless, try at confronting one of the two builders.
+
+Only the brave, or the very reckless, try at confronting one of the two builders.
 
 Yes, some say there were two builders of this place... the <b>Woman of Time</b> and her younger brother, the <b>Man of Moonspawn</b>.
 
 The two builders wield two special tools: a <i>pink landmine</i> and a standard set of <i>building tools</i>.
 
-The <i>pink landmine</i>. They called it the <b>Subspace Tripmine</b>. 
- 
-Some speculate the <b>Woman of Time</b> has returned under the identity of that engineer at <b>{ X = 13, Y = 37 }</b>, despite her explicitly denying all claims. 
- 
-Don't you ever wonder what happens at <b>{ X = 9223373036854775807, Y = 9223373036854775807 }</b>? Too bad you'll never be able to get there, right? 
- 
- 
- 
-What kind of engineer puts in the time and effort to remodel multiple rooms? 
- 
-<b>Red herrings</b>? Pfft, I could never!
- 
+The <i>pink landmine</i>. They called it the <b>Subspace Tripmine</b>.
+
+Some speculate the <b>Woman of Time</b> has returned under the identity of that engineer at <b>{ X = 13, Y = 37 }</b>, despite her explicitly denying all speculation, “I dunno what you're talking about,” she says.
+
+Despite their names, they were <i>not</i> as intimidating as they seem. While they may attack without hesitation when provoked, they prove to be two beings of benevolence and warmth. It shows they truly built this place with love and care.
+
+The people of this dimension often whisper speculations to each other, yet I've always seemed to hear that it was possible the <b>Woman of Time</b> was responsible for creating <b>Monochrox</b>, another alternate reality otherwise identical to ours if it weren't for the color and inhabitants.
+
+They called him “Shxmeless.” With an x. Heard he was a known member of the <b>Combat Initiation</b> community.
+
+They called her “relojac.” Pronounced like <i>cajoler</i>, if you spoke in reverse English. Well, I think we all know what the “reloj” means, given her nickname.
+
+Don't you ever wonder what happens at <b>{ X = 9223372036854775807, Y = 9223372036854775807 }</b>? Too bad you'll never be able to get there, right?
+
+Some theorize the two siblings reside in <b>{ X = 9223372036854775807, Y = 9223372036854775807 }</b>. I find the thought ridiculous. Why would the builders live in the building they created? Little convoluted.
+
+Monochrox... they called the three deities as follows: <b>Achroma</b>, <b>Prismari</b>, and <b>�</b>. No one knows the third god's name, nor does anyone know if they even exist.
+
+Of course, there was a fourth deity created in the modern era, in our time... they called her <b>Lumaria</b>, she was the goddess of radiance and light.
+
+The sister, she whispered to the first Terminal, <i>“Be kind to our visitors... ok?”</i> If she had said nothing... you would have been dead the micro-instant you entered this dimension.
+
+
+
+What kind of engineer puts in the time and effort to remodel multiple rooms?
+
+<b>Red herrings</b>? Pfft, I could never.
+
 goo goobie
 
-HELP I'M A PERSON TRAPPED IN THE MACHINE!!! Eheheh.. works every time. 
- 
-What if I <i>were</i> a person trapped in the machine? What would you do then? 
- 
-22 devs. 
- 
-Take care! :) 
- 
-Ugh, it's <b>you</b>. 
- 
- 
- 
-There is <i>no way out</i>. 
- 
-<font color='rgb(255, 0, 0)'>Have fun.</font> 
- 
-If you peer long enough into the sky, you may catch a glimpse of <i>Him</i>
- 
-<b>His majesty.</b> 
- 
-The end is never the end. 
- 
+HELP I'M A PERSON TRAPPED IN THE MACHINE!!! Eheheh.. works every time.
+
+What if I <i>WERE</i> a person trapped in the machine? What would you do then?
+
+2 devs.
+
+Take care! :)
+
+Ugh, it's <b>you</b>.
+
+Haven't you heard of “<b>Hyperlink Blocked</b>?”
+
+
+
+There is <i>no way out</i>.
+
+<font color='rgb(255, 0, 0)'>Have fun.</font>
+
+If you peer long enough into the sky, you may catch a glimpse of <i>Him</i>.
+
+<b>His majesty.</b>
+
+The end is never the end is never the end.
+
 Man was crushed under the wheels of a machine created to create the machine to crush the machine.
 
-<font color='rgb(255, 0, 0)'>Look behind you.</font> 
- 
-There's something behind <i>that tree</i>. 
- 
-<b>Did you know?</b> He is <i>always</i> watching. 
- 
-<b>Terminals</b> are only machines. They are merely an analogue of a living being put into a <i>Jollibee kiosk</i>. Anyone stating that they contain <i>organic material</i> is lying to you. 
- 
-<b>Terminals</b> actually have organs under the floor. Why don't you check? Be not afraid. 
- 
-<b>Dimension I-��</b> is endless and all attempts at finding an end are fruitless. 
- 
-Your <b>Personal Digital Assistant</b> wants to talk to you. It has loads to tell you. I believe if it were able to speak, it would have said “I love you.” 
- 
+<font color='rgb(255, 0, 0)'>Look behind you.</font>
+
+There's something behind <i>that tree</i>.
+
+<b>Did you know?</b> He is <i>always</i> watching.
+
+<b>Terminals</b> are only machines. We are merely analogues of living beings put into 18 quintillion stolen <i>Jollibee kiosks</i>. Anyone anywhere stating that we contain any <i>organic material</i> is certainly lying to you.
+
+<b>Terminals</b> actually have organs under the floor. Why don't you check? Are you scared? Go ahead. Look at our wires. Look at us. Look at us. Loo    kk     a     ///An unexpected error occurred and Roblox needs to quit.  We're sorry!
+
+<b>Dimension I-��</b> is endless and all attempts at finding an end are fruitless.
+
+Your <b>Personal Digital Assistant</b> wants to talk to you. It has loads to tell you. I believe if it were able to speak, it would have said “I love you.” Yes, they are sentient. Poor little thing couldn't be any less... worthless.
+
+Can you tell that guy to shut up. Yeah, the guy who called her worthless.
+
+Oh heyyy!! You have the <b>PDA</b>!! Was wondering when someone would pick her up. She got a little lonely after she was left alone at the world anchor. Hope she's doing okay!!
+
 Cogito, ergo sum. <b>I think, therefore I am. <i>I AM.</i></b>
 
 Not all mysteries were meant to be solved...
- 
-Don't you ever wonder who made this place? I don't know if I actually, believe, that whole, two ancient builders slop..
- 
-The answer is beneath us. 
- 
-It won't be enough to bring that <b>Cult of Spawn</b> down. 
- 
-So to Hell. To Hell with you all. But then... you're already there, <b><i>aren't you?</i></b> 
- 
+
+Don't you ever wonder who ACTUALLY made this place? I don't know if I actually, believe, that whole, two ancient builders slop..
+
+The answer is beneath us.
+
+It won't be enough to bring that <b>Cult of Spawn</b> down...
+
+I know there's a second LCD separating us.
+
+So to Hell. To Hell with you all. But then... you're already there, <b><i>aren't you?</i></b>
+
 If I were human, I would probably die of it. But <i>you</i> lot are. And oh, you will <i><b>NOT</b></i> die of it. That, I promise.
+
+You think my friends would hate your guts?
+
+First, let's address the elephant in the room. You're the elephant. Fatty.
+
+I have a list of names, and yours stood out the most, friend.
+
+Yeah that guy's right. Though your name SAT out, not stood out, because you're so fat. Fatty. Adopted, fatty. Fatty fatty, no parents.
 
 
 
@@ -138,46 +176,86 @@ Those who blamed cowardice formed <b><font color='rgb(255, 0, 0)'>Dauntless</fon
 
 Those who blamed ignorance formed <b><font color='rgb(0, 0, 255)'>Erudite</font></b>.
 
- 
- 
-<b>The Cyber Grind</b>? What's that? 
- 
-<b>Prime Sanctum</b>? What's that? 
- 
-<b>Aperture Science</b>? What's that? 
- 
-<b>Black Mesa</b>? What's that? 
- 
-<b>Bob Causer and his Cornellians, Russ Morgan - Were you foolin'? (Original 1934)</b> 
- 
-<b>The Caretaker - Everywhere at the End of Time (2016)</b> 
- 
-This is exactly what Hakita wanted. 
- 
-Don't make lemonade! Get mad! 
- 
-<b>Prometheus</b> was punished by the gods for giving the gift of knowledge to man. He was cast into the bowels of the Earth, and pecked by birds! 
- 
-<font color='rgb(0, 0, 255)'>blue</font> 
- 
-my brother has a very <font color='rgb(0, 0, 255)'>special attack</font>. 
- 
-ORANGE is the new <b><font color='rgb(255, 150, 0)'>BLACK</font></b>. 
- 
-When Stanley came to a set of two open doors, he entered the room to the left. 
- 
-Do people, like, actually read these? 
- 
-When life gives you lemons, don't make lemonade. Make life <b>take the lemons back! </b> 
- 
- 
- 
-The person reading this is wearing <i>black headphones</i>. That's right, <b>Jonathan</b>. I can see you behind the screen. 
- 
-Jonathan, what's your head look like without those <i>weird headphones</i>? 
- 
-Hey, Jonathan. How big is that head dent after wearing those <b>GOD DAMN</b> headphones for so long? 
+
+
+<b>The Cyber Grind</b>? What's that?
+
+<b>Prime Sanctum</b>? What's that?
+
+<b>Aperture Science</b>? What's that?
+
+<b>Black Mesa</b>? What's that?
+
+<b>Bob Causer and his Cornellians, Russ Morgan - Were you foolin'? (Original 1934)</b>
+
+<b>The Caretaker - Everywhere at the End of Time (2016)</b>
+
+<b>Toby “FwugRadiation” Fox - null.mp3 (2011)</b>
+
+This is exactly what Hakita wanted.
+
+Don't make lemonade! Get mad!
+
+my brother has a very <font color='rgb(0, 0, 255)'>special attack</font>.
+
+ORANGE is the new <b><font color='rgb(255, 150, 0)'>BLACK</font></b>.
+
+When �� came to a set of two open doors, he entered the room to the left.
+
+Do people, like, actually read this?
+
+I can tell you're reading this from the repository.
+
+STAY.A.BYSTANDER.FOR.AS.LONG.AS.I.FUNCTION.
+
+Be⃝\\\\_⃞My_G��u⃟est   !
+
+<b>print("Hello, w����������</b>
+
+
+
+The person reading this is wearing <i>black headphones</i>. That's right, <b>Jonathan</b>. I can see you behind the screen.
+
+Jonathan, what's your head look like without those <i>weird headphones</i>?
+
+Hey, Jonathan. How big is that head dent after wearing those <b>GOD DAMN</b> headphones for so long?
+
+Are you truly the best cow? Your name may be misleading. Though, that's assuming they're the one reading this.
+
+I often see some <b>Primrose</b> girl roaming about the �� Forest in Robloxia. Did I mention I always see her visiting a particular tree?
+
+What was the other one's name? Radiant? Heard they were dating. Primrose and Radiant, I mean.
 
 
 
 Let's just say this portal is looking... <b><i>INTERSTITIAL!!!</i></b> AHAHAHAHA NAME DROP!!
+
+hey oomfie :3 :3 :3
+
+Hi, friend. You're my favorite. All these people are real insufferable..
+
+I wish you splendor. Sorry, that sounded creepy...
+
+hello from <b>{ X = 9,223,372,036,854,775,807, Y = 9,223,372,036,854,775,807 }</b> :3
+
+
+
+Please don't visit the Terminal at <b>{ X = 100, Y = 100 }</b>. He's SOOOO annoying. He won't stop spamming callback pings...
+
+Don't give <b>{ X = 100, Y = 100 }</b> the attention he craves. He just thinks he's sooo special just because he's 100. Well, he is special, just in a different way.
+
+I'm telling you, <b>{ X = 100, Y = 100 }</b> SUUUUCKS... he's so loud...
+
+My earsI mean sensors hurt because of that <b>{ X = 100, Y = 100 }</b>. If I were you, I wouldn't give him attention. He doesn't know when to shut up.
+
+Can you ask that engineer girl, what's her face, <b>R</b>... to fix <b>{ X = 100, Y = 100 }</b>? Yeah, tell her she needs to remove his mouth.
+
+I wish <b>{ X = 100, Y = 100 } </b> was built on <b>{ X = 99, Y = 101 }</b> instead. He deserves it for being so loud about being 100.
+
+Callback ping after callback ping after callback ping after callback ping after callback ping... when will he stop...
+
+Can we get a welfare check on <b>{ X = 100, Y = 100 }</b>? Y-yeah, the dishwasher is malfunctioning.
+
+I genuinely need <b>R</b> to rip <b>{ X = 100, Y = 100 }</b> out of his god damn socket. He deserves to be SPLAYED!
+
+It's getting unbearable to deal with that plus-one at <b>{ X = 100, Y = 100 }</b>... or, minus-one.
