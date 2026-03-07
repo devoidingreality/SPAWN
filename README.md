@@ -19,10 +19,10 @@ if a few maggots notice.
 This group cannot be put into the eyes of the public.
 For the lowest class, do guarantee that you meet the sacrificial quota, otherwise, you will be sacrificed to the Spawn in place of your missing sacrifices.
 
-If for any reason, you haven't gained SS access, do contact a higher up. (Director or Him)
-You will be granted your power and you will be like a god.
+If for any reason, you haven't gained access to the server side bypass, you should contact the current Director. It's generally not recommended to use ATO because of its costly price (Over tens of thousands of USD and that's assuming you already have a reputation in this field). Verify your installation of Spawnlight instead.
 
-Attempting to run code restricted to higher ups will result in your name being deleted off our libraries and you being deported overseas.
-Don't try to test us.
+Any code you attempt to execute is reviewed by a high end Secretary. If you attempt to run any script restricted to higher classes or suspicious code, your access to Spawnlight will be revoked and your name will be deleted from our records without warning.
 
-~~Just follow the script, User.~~
+Attempting to run obfuscated code will be rejected, though have consequences far less harsh than attempting to sabotage the group.
+
+[Infinite Yield FE](https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source) is trusted.
