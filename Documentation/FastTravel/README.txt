@@ -100,7 +100,7 @@ more than 100 Ru by FastTraveling in bursts. (Warnings and Safety Notices, C.)
 Terminal runtime does not enforce rounding.
 
 	Ru can be converted to Vector3 and CFrame with this function:
-	--
+
 	local function ToWorld(Ru: { X: number, Y: number }, y: number?, m: string?): (CFrame | Vector3)
 		local Ru = Ru or { X = 0, Y = 0 }
 		local y = y or 0
@@ -123,9 +123,10 @@ Terminal runtime does not enforce rounding.
 
 		return m == "Vector3" and Vector3.new(Ru.X, y, Ru.Y) or CFrame.new(Ru.X, y, Ru.Y)
 	end
-	--
+
+
 	And vice-versa:
-	--
+	
 	local function ToRoom(World: CFrame | Vector3): ({ X: number, Y: number }, number)
 		if typeof(World) ~= "Vector3" and typeof(World) ~= "CFrame" then
 			warn("invalid data type", typeof(World))
@@ -143,7 +144,57 @@ Terminal runtime does not enforce rounding.
 
 		return { X = x, Y = y }, yWorld
 	end
-	--
+
+
+	And a VBA equivalent (Ensure Roblox and Luau API Calls is enabled as a Reference in your project):
+
+	Public Function ToWorld(Ru As Vector2, Optional YAxis As Double = 0, Optional WorldUnit As String = "Vector3")
+		If Ru.X <> Ru.ItemX Then
+			Debug.Print "Ru.X is not a number"
+			Ru.X = 0
+		End If
+		If Ru.Y <> Ru.Y Then
+			Debug.Print "Ru.Y is not a number"
+			Ru.Y = 0
+		End If
+
+		Ru.X = Round(Ru.X)
+		Ru.Y = Round(Ru.Y)
+
+		Ru.X = Ru.X * 72
+		Ru.Y = Ru.Y * 72
+
+		If WorldUnit = "Vector3" Then Set ToWorld = New Vector3 Else Set ToWorld = New CFrame
+
+		ToWorld.X = Ru.X
+		ToWorld.Y = YAxis
+		ToWorld.Z = Ru.Y
+	End Function
+
+
+	Ditto, vice-versa:
+
+	Public Function ToRoom(World) As Vector2
+		If TypeName(World) <> "Vector3" And TypeName(World) <> "CFrame" Then
+			Debug.Print "invalid data type " & TypeName(World)
+			Exit Function
+		End If
+
+		Dim X As Double, Y As Double
+		X = World.X
+		Y = World.Z
+		' No support for tuples so YWorld is discarded.
+
+		X = X / 72
+		Y = Y / 72
+
+		X = Round(X)
+		Y = Round(Y)
+
+		Set ToRoom = New Vector2
+		ToRoom.X = X
+		ToRoom.Y = Y
+	End Function
 
 
                  ------------------------------------------------------
@@ -152,6 +203,8 @@ Terminal runtime does not enforce rounding.
 
 	This program is licensed under the GNU General Public License version 3. To view
 a copy of this license, visit https://www.gnu.org/licenses/gpl-3.0.en.html .
+
+	We are not affiliated with the creators of SmileOS 1.0 and SmileOS 2.0
 
 
                  ------------------------------------------------------
