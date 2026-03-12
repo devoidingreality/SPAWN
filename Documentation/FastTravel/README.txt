@@ -19,8 +19,10 @@ sustained contact with the touchscreen.
 extension, any objects making direct contact with those objects, and so on,
 will also be teleported.
 
-	c. Teleports will fail if any X or Y coordinate is greater than 100. This can be
-bypassed by teleporting multiple times within quick succession.
+	c. To avoid overloading, teleports will fail if the distance between the current
+coordinates and the destination coordinates exceed 100 Ru. This can be calculated for
+using the Distance Formula. This limitation can be bypassed by teleporting multiple times
+within quick succession.
 
                  ------------------------------------------------------
                                     What is Included
@@ -204,7 +206,8 @@ Terminal runtime does not enforce rounding.
 	This program is licensed under the GNU General Public License version 3. To view
 a copy of this license, visit https://www.gnu.org/licenses/gpl-3.0.en.html .
 
-	We are not affiliated with the creators of SmileOS 1.0 and SmileOS 2.0
+	We are not affiliated with the creators of SmileOS 1.0 and SmileOS 2.0. The
+Terminals are not powered by blood.
 
 
                  ------------------------------------------------------
