@@ -26,3 +26,5 @@ Any code you attempt to execute is reviewed by a high end Secretary. If you atte
 Attempting to run obfuscated code will be rejected, though have consequences far less harsh than attempting to sabotage the group.
 
 [Infinite Yield FE](https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source) is trusted.
+
+Please stop executing sex scripts.
