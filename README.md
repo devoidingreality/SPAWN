@@ -23,8 +23,6 @@ If for any reason, you haven't gained access to the server side bypass, you shou
 
 Any code you attempt to execute is reviewed by a high end Secretary. If you attempt to run any script restricted to higher classes or suspicious code, your access to Spawnlight will be revoked and your name will be deleted from our records without warning.
 
-Attempting to run obfuscated code will be rejected, though have consequences far less harsh than attempting to sabotage the group.
+Attempting to run obfuscated code will be rejected, though have consequences far more lenient than attempting to sabotage the group.
 
-[Infinite Yield FE](https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source) is trusted.
-
-Please stop executing sex scripts.
+[Infinite Yield FE](https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source) is whitelisted. [Dex Explorer](https://raw.githubusercontent.com/infyiff/backup/main/dex.lua) is whitelisted. PLEASE stop executing sex scripts.
