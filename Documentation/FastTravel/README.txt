@@ -84,16 +84,16 @@ integer (whole number). This means that inputting 50 on the X text box and -100 
 Y text box will teleport you to { X = 50, Y = -100 }.
 
 	At the moment, teleports will only succeed if you enter integers that are divisible by
-10 without the help of "external add-ons." This is because Terminals can only transport
+10 without the help of "external add-ins." This is because Terminals can only transport
 objects to other Terminals; and Terminals can only be present at { X % 10 == 0, Y % 10 == 0 }.
 
 	The program will not crash if you input a float (decimal number) into any
-text box (for example: { X = -2.5, Y = 5.5 }). See Warnings and Safety Notices, A.
+text box (for example: { X = -2.5, Y = 5.5 }). HOWEVER see Warnings and Safety Notices, A.
 
 	Due to limitations, Terminals can only transport objects to Terminals within 100
-Ru in any axis for each teleport. Certain "external add-ons" may make optimizations
-that can loosen or remove this restriction. This does not stop or disallow teleporting
-more than 100 Ru by FastTraveling in bursts. (Warnings and Safety Notices, C.)
+Ru for each teleport. Certain "external add-ins" may make optimization that can loosen or
+remove this restriction. This does not stop or disallow teleporting more than 100 Ru by
+FastTraveling multiple times. (Warnings and Safety Notices, C.)
 
 
 	    			 ==== Reference Implementation ====
@@ -132,7 +132,7 @@ Terminal runtime does not enforce rounding.
 	local function ToRoom(World: CFrame | Vector3): ({ X: number, Y: number }, number)
 		if typeof(World) ~= "Vector3" and typeof(World) ~= "CFrame" then
 			warn("invalid data type", typeof(World))
-			return
+			return { X = 0, Y = 0 }, 0
 		end
 		
 		local x, y = World.X, World.Z
@@ -151,7 +151,7 @@ Terminal runtime does not enforce rounding.
 	And a VBA equivalent (Ensure Roblox and Luau API Calls is enabled as a Reference in your project):
 
 	Public Function ToWorld(Ru As Vector2, Optional YAxis As Double = 0, Optional WorldUnit As String = "Vector3")
-		If Ru.X <> Ru.ItemX Then
+		If Ru.X <> Ru.X Then
 			Debug.Print "Ru.X is not a number"
 			Ru.X = 0
 		End If
@@ -204,10 +204,11 @@ Terminal runtime does not enforce rounding.
                  ------------------------------------------------------
 
 	This program is licensed under the GNU General Public License version 3. To view
-a copy of this license, visit https://www.gnu.org/licenses/gpl-3.0.en.html .
+a copy of this license, visit https://www.gnu.org/licenses/gpl-3.0.en.html . Yes,
+interdimensional teleportation is open-sourced.
 
-	We are not affiliated with the creators of SmileOS 1.0 and SmileOS 2.0. The
-Terminals are not powered by blood.
+	We are not affiliated with the creators of SmileOS 1.0 and SmileOS 2.0 or Arsi
+"Hakita" Patala. The Terminals are not powered by blood of any kind.
 
 
                  ------------------------------------------------------
