@@ -1,218 +1,228 @@
-           -------------------------------------------------------------------
-                    nil Dimension I-�� FastTravel Software User Manual
-                                        January -∞
-           -------------------------------------------------------------------
+-------------------------------------------------------------------------
+         nil Dimension I-�� FastTravel Software User Manual
+                            January -∞
+-------------------------------------------------------------------------
 
-                                         nil, -∞
+                              nil, -∞
 
-                 ------------------------------------------------------
-                                Warnings & Safety Notices
-                 ------------------------------------------------------
+        ------------------------------------------------------
+                     Warnings & Safety Notices
+        ------------------------------------------------------
 
-	a. Non-integer teleports (the act of teleporting any object to coordinates whose
-X and/or Y values are not whole numbers) can yield unpredictable and unexpected results,
-most commonly partial temporal misalignment of body segments. Operators are strongly
-advised not to execute non-integer teleports while any organic matter is making
-sustained contact with the touchscreen.
+  Definition. "Contact" in this manual means physical touch with a
+  Terminal's touchscreen, directly or through a chain of other objects
+  (an object touching the screen, anything touching that object, and so
+  on). Anything in contact when a teleport is initiated is teleported.
+  The Terminal itself and Dimension I-�� infrastructure are never
+  teleported.
 
-	b. Any object making direct contact with a Terminal's touchscreen; and by
-extension, any objects making direct contact with those objects, and so on,
-will also be teleported.
+  a. Non-integer teleports (teleporting to coordinates whose X and/or Y
+     values are not whole numbers) can yield unpredictable results, most
+     commonly partial temporal misalignment of body segments. The data
+     packet is sent BEFORE validation fails, and no Terminal
+     acknowledges it (see Diagnostic Code 0x0005). Operators are
+     strongly advised not to execute non-integer teleports while any
+     organic matter is in contact with the touchscreen.
 
-	c. To avoid overloading, teleports will fail if the distance between the current
-coordinates and the destination coordinates exceed 100 Ru. This can be calculated for
-using the Distance Formula. This limitation can be bypassed by teleporting multiple times
-within quick succession.
+  b. Everything in contact with the touchscreen at the moment of a
+     teleport (see Definition) will also be teleported.
 
-                 ------------------------------------------------------
-                                    What is Included
-                 ------------------------------------------------------
-
-	All FastTravel points ("Terminals") are bundled with a modified installation of
-Microsoft Windows 95 with an added touchscreen. The repository for this modified
-installation can be found at [link removed].
-
-	Installations were downgraded from Microsoft Windows 10 to reduce system overhead
-and minimize latency. Incompatibilities in later operating systems have also been
-observed. However, later interface layers are emulated or preserved for operator
-familiarity and legacy compatibility. 
-
-	The repository for this program can be found at [link removed].
+  c. To prevent overloading, a teleport fails if the distance between
+     the current and destination coordinates is greater than 100 Ru
+     (exactly 100 Ru succeeds). See "Maximum Travel Distance" below.
 
 
-                 ------------------------------------------------------
-                     How to Use Dimension I-�� FastTravel Software
-                 ------------------------------------------------------
+        ------------------------------------------------------
+                          What is Included
+        ------------------------------------------------------
 
-	Approach a Terminal; the LCD will turn on in response to proximity. In the rare
-case a Terminal's screen won't turn on or is unnaturally dim, restart it by pressing the
-Restart button to the LCD's right. If the issue persists, it is likely faulty. In that
-case, contact a repair technician by e-mailing maintenance@the-interstice.org and providing
-your coordinates, as shown in your Personal Digital Assistant (Which you have assumedly been
-provided upon entering Dimension I-��.)
+  All FastTravel points ("Terminals") are bundled with a modified
+installation of Microsoft Windows 95 with an added touchscreen. The
+repository for this modified installation can be found at [link
+removed]. Note: the repository contains only patches and scripts, not
+the operating system image.
 
-	When the Terminal is on, you will be greeted by a menu ("Window") named 
-"FastTravel.exe." On the window are multiple VBA CommandButtons ("Buttons") and TextBoxes
-("Text boxes"), all of which will be highlighted in this following section:
+  Installations were downgraded from Microsoft Windows 10 to reduce
+system overhead and minimize latency. Later operating systems were also
+found to be incompatible with the Terminal driver. Later interface
+layers are emulated or preserved for operator familiarity and legacy
+compatibility. This is stupid. It now runs slower.
 
-	                          ==== Commands ====
-        Buttons:
-     1. TP button    - Its caption stands for "Teleport." Upon typing coordinates into the
-	               X and Y text boxes, tapping this button will transport any object or
-                       organism making (any and all) contact with the touchscreen. (Warnings
-                       and Safety Notices, B.)
-
-     2. ? (question) - This is the user manual button. The Terminal will display a copy of
-	               document upon tapping it. It can then be closed by tapping the X
-	               button in the top-right corner of the displayed Notepad window.
-
-     3. C button     - Similarly, the Terminal will display a copy of the GNU General Public
-	               License version 3 upon tapping it. It can be closed the same way.
-
-	Text boxes:
-     1. X coordinate - Related to Coordinates. Read the Room Unit section for more information.
-	               Input your desired X coordinate.
-     
-     2. Y coordinate - Ditto. Input your desired Y coordinate.
+  The repository for this program can be found at [link removed].
 
 
-	                        ==== Room Unit ====
+        ------------------------------------------------------
+          How to Use Dimension I-�� FastTravel Software
+        ------------------------------------------------------
 
-	Generally, one Room ("Ru") is measured as a 72x72 stud area. Room coordinates are
-expressed as a dictionary in the form { X = %d, Y = %d }, where "%d" represents an
-integer (whole number). This means that inputting 50 on the X text box and -100 on the
-Y text box will teleport you to { X = 50, Y = -100 }.
+  Approach a Terminal; the LCD will turn on in response to proximity.
+If a Terminal's screen won't turn on or is unnaturally dim, restart it
+with the Restart button on the back. If the issue persists after 15
+seconds, it is likely faulty. Contact a repair technician at
+maintenance@the-interstice.org and provide your coordinates, as shown
+on your Personal Digital Assistant (PDA), which you have presumably
+been provided upon entering Dimension I-��. If you do NOT have a PDA,
+provide the four universe IDs of any adjacent Room, found on the signs
+above the doorways of each Portal. Photos are accepted.
 
-	At the moment, teleports will only succeed if you enter integers that are divisible by
-10 without the help of "external add-ins." This is because Terminals can only transport
-objects to other Terminals; and Terminals can only be present at { X % 10 == 0, Y % 10 == 0 }.
+  When the Terminal is on, you will see a window named "FastTravel.exe"
+containing VBA CommandButtons ("Buttons") and TextBoxes ("Text boxes").
 
-	The program will not crash if you input a float (decimal number) into any
-text box (for example: { X = -2.5, Y = 5.5 }). HOWEVER see Warnings and Safety Notices, A.
+                        ==== Commands ====
 
-	Due to limitations, Terminals can only transport objects to Terminals within 100
-Ru for each teleport. Certain "external add-ins" may make optimization that can loosen or
-remove this restriction. This does not stop or disallow teleporting more than 100 Ru by
-FastTraveling multiple times. (Warnings and Safety Notices, C.)
+  Buttons:
+    1. TP button    - Short for "Teleport." After typing coordinates
+                      into the X and Y text boxes, tap this button to
+                      transport everything in contact with the
+                      touchscreen (see Warnings and Safety Notices,
+                      Definition and b).
 
+    2. ? (question) - Displays a copy of this document. Close it by
+                      tapping the X button in the top-right corner of
+                      the Notepad window.
 
-	    			 ==== Reference Implementation ====
+    3. C button     - Displays a copy of the GNU General Public
+                      License version 3. Close it the same way.
 
-	The reference implementation demonstrates safe canonical conversion only; the
-Terminal runtime does not enforce rounding.
+  Text boxes:
+    1. X coordinate - Your desired X coordinate. See "Room Unit".
 
-	Ru can be converted to Vector3 and CFrame with this function:
-
-	local function ToWorld(Ru: { X: number, Y: number }, y: number?, m: string?): (CFrame | Vector3)
-		local Ru = Ru or { X = 0, Y = 0 }
-		local y = y or 0
-		local m = m or "Vector3"
-		
-		if Ru.X ~= Ru.X then
-			warn("Ru.X is not a number")
-			Ru.X = 0
-		end
-		if Ru.Y ~= Ru.Y then
-			warn("Ru.Y is not a number")
-			Ru.Y = 0
-		end
-		
-		Ru.X = math.round(Ru.X)
-		Ru.Y = math.round(Ru.Y)
-		
-		Ru.X *= 72
-		Ru.Y *= 72
-
-		return m == "Vector3" and Vector3.new(Ru.X, y, Ru.Y) or CFrame.new(Ru.X, y, Ru.Y)
-	end
+    2. Y coordinate - Your desired Y coordinate. See "Room Unit".
 
 
-	And vice-versa:
-	
-	local function ToRoom(World: CFrame | Vector3): ({ X: number, Y: number }, number)
-		if typeof(World) ~= "Vector3" and typeof(World) ~= "CFrame" then
-			warn("invalid data type", typeof(World))
-			return { X = 0, Y = 0 }, 0
-		end
-		
-		local x, y = World.X, World.Z
-		local yWorld = World.Y
+                        ==== Room Unit ====
 
-		x /= 72
-		y /= 72
+  One Room ("Ru") in Dimension I-�� is a 72x72 stud area. Room
+coordinates are expressed as { X = %d, Y = %d }, where %d is an integer.
+Entering 50 for X and -100 for Y teleports you to { X = 50, Y = -100 }.
+-0 is always set to 0 internally.
 
-		x = math.round(x)
-		y = math.round(y)
+  Room X and Y correspond to world X and Z respectively. World Y is
+height, and is unaffected by teleporting.
 
-		return { X = x, Y = y }, yWorld
-	end
+  Without external add-ins, a teleport only succeeds if both X and Y
+are divisible by 10. Terminals can only transport objects to other
+Terminals, and Terminals only exist where both X and Y modulo 10 equal
+0. (Non-integer inputs are partially processed: the packet is sent
+before validation fails.)
 
+  The program will not crash if you enter a float such as
+{ X = -2.5, Y = 5.5 }. It will warn you to remove any organic matter in
+contact with the Terminal. You are strongly advised not to perform a
+non-integer teleport (see Warnings and Safety Notices, a).
 
-	And a VBA equivalent (Ensure Roblox and Luau API Calls is enabled as a Reference in your project):
+                   ==== Maximum Travel Distance ====
 
-	Public Function ToWorld(Ru As Vector2, Optional YAxis As Double = 0, Optional WorldUnit As String = "Vector3")
-		If Ru.X <> Ru.X Then
-			Debug.Print "Ru.X is not a number"
-			Ru.X = 0
-		End If
-		If Ru.Y <> Ru.Y Then
-			Debug.Print "Ru.Y is not a number"
-			Ru.Y = 0
-		End If
+  A teleport succeeds only if:
 
-		Ru.X = Round(Ru.X)
-		Ru.Y = Round(Ru.Y)
+      sqrt( (X2 - X1)^2 + (Y2 - Y1)^2 )  <=  100
 
-		Ru.X = Ru.X * 72
-		Ru.Y = Ru.Y * 72
+  Examples, starting from { X = 0, Y = 0 }:
 
-		If WorldUnit = "Vector3" Then Set ToWorld = New Vector3 Else Set ToWorld = New CFrame
+      { X = 60,  Y = 80 }  -> distance exactly 100: succeeds.
+      { X = 70,  Y = 80 }  -> distance about 106.3: fails (0x0002).
 
-		ToWorld.X = Ru.X
-		ToWorld.Y = YAxis
-		ToWorld.Z = Ru.Y
-	End Function
+  To travel farther, teleport in several hops. For example, to reach
+{ X = 250, Y = 0 } from { X = 0, Y = 0 }:
+
+      { 0, 0 } -> { 100, 0 } -> { 200, 0 } -> { 250, 0 }
+
+  Each hop must land on a Terminal (X and Y divisible by 10). Certain
+external add-ins loosen or remove the 100 Ru limit; see [link removed].
 
 
-	Ditto, vice-versa:
+                   ==== Diagnostic Codes ====
 
-	Public Function ToRoom(World) As Vector2
-		If TypeName(World) <> "Vector3" And TypeName(World) <> "CFrame" Then
-			Debug.Print "invalid data type " & TypeName(World)
-			Exit Function
-		End If
-
-		Dim X As Double, Y As Double
-		X = World.X
-		Y = World.Z
-		' No support for tuples so YWorld is discarded.
-
-		X = X / 72
-		Y = Y / 72
-
-		X = Round(X)
-		Y = Round(Y)
-
-		Set ToRoom = New Vector2
-		ToRoom.X = X
-		ToRoom.Y = Y
-	End Function
+    0x0000 - Operation completed successfully.
+    0x0001 - No working Terminal at the destination (for example,
+             X or Y is not divisible by 10).
+    0x0002 - Destination exceeds maximum travel distance (100 Ru).
+    0x0003 - Destination is the current location.
+    0x0004 - Invalid coordinate format (X or Y is not a number or is
+             blank).
+    0x0005 - Non-integer coordinates. Packet dispatched, no Terminal
+             acknowledged it. Do not touch the touchscreen.
+    0xFFFF - Contact maintenance.
 
 
-                 ------------------------------------------------------
-                                Copyright & Permissions
-                 ------------------------------------------------------
+                   ==== Reference Implementation ====
 
-	This program is licensed under the GNU General Public License version 3. To view
-a copy of this license, visit https://www.gnu.org/licenses/gpl-3.0.en.html . Yes,
-interdimensional teleportation is open-sourced.
+  The reference implementation demonstrates safe canonical conversion
+only; the Terminal runtime itself does not enforce rounding.
 
-	We are not affiliated with the creators of SmileOS 1.0 and SmileOS 2.0 or Arsi
-"Hakita" Patala. The Terminals are not powered by blood of any kind.
+  Ru to Vector3 or CFrame:
+
+  local function ToWorld(
+      Ru: { X: number, Y: number }?, y: number?, m: string?
+  ): (CFrame | Vector3)
+      local r = Ru or { X = 0, Y = 0 }
+      local c = { X = r.X, Y = r.Y }
+      y = y or 0
+      m = m or "Vector3"
+
+      if c.X ~= c.X or math.abs(c.X) == math.huge then
+          warn("Ru.X is not a finite number")
+          c.X = 0
+      end
+      if c.Y ~= c.Y or math.abs(c.Y) == math.huge then
+          warn("Ru.Y is not a finite number")
+          c.Y = 0
+      end
+
+      -- "+ 0" normalizes -0 to 0.
+      c.X = math.round(c.X) + 0
+      c.Y = math.round(c.Y) + 0
+
+      c.X *= 72
+      c.Y *= 72
+
+      return m == "Vector3" and Vector3.new(c.X, y, c.Y)
+          or CFrame.new(c.X, y, c.Y)
+  end
 
 
-                 ------------------------------------------------------
-                 Where Else to Find Dimension I-�� FastTravel Software
-                 ------------------------------------------------------
-	
-	don't
+  And vice versa:
+
+  local function ToRoom(World: CFrame | Vector3): ({ X: number, Y: number }, number)
+      if typeof(World) ~= "Vector3" and typeof(World) ~= "CFrame" then
+          warn("invalid data type", typeof(World))
+          return { X = 0, Y = 0 }, 0
+      end
+
+      local x, y = World.X / 72, World.Z / 72
+      local yWorld = World.Y
+
+      x = math.round(x) + 0
+      y = math.round(y) + 0
+
+      return { X = x, Y = y }, yWorld
+  end
+
+
+  VBA equivalent. Enable "Roblox and Luau Type Library" as a Reference
+in your Project.
+  https://www.github.com/devoidingreality/
+
+
+        ------------------------------------------------------
+                     Copyright & Permissions
+        ------------------------------------------------------
+
+  This program is licensed under the GNU General Public License version
+3. To view a copy, visit https://www.gnu.org/licenses/gpl-3.0.en.html .
+Yes, interdimensional teleportation is open-sourced.
+
+  Roblox and Luau Type Library written by asherself and originally
+published on VBForums and the Roblox Developer Forum: [link removed]
+[link removed]. Its repository can be found here: [link removed]
+
+  We are not affiliated with the creators of SmileOS 1.0 and SmileOS 2.0
+or Arsi "Hakita" Patala. The Terminals are not powered by blood of any
+kind.
+
+
+        ------------------------------------------------------
+        Where Else to Find Dimension I-�� FastTravel Software
+        ------------------------------------------------------
+
+  don't
